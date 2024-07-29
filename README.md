@@ -3,6 +3,7 @@ Nume Proiect: X & O Game (Tic-Tac-Toe)
 
 Descriere:
 Acest proiect este un joc web de X și O (Tic-Tac-Toe) unde utilizatorii pot concura împotriva unui algoritm AI. Jocul oferă o interfață intuitivă și atractivă, unde jucătorii pot selecta simbolul cu care doresc să joace și nivelul de dificultate al adversarului AI. Proiectul utilizează HTML, CSS și JavaScript pentru implementarea sa.
+
 Caracteristici și funcționalități
 •	Selecția jucătorului: Jucătorii pot alege să joace ca X sau O.
 •	Selecția dificultății: Trei nivele de dificultate (Newbie, Medium, Expert) pentru AI.
@@ -17,4 +18,5 @@ Implementare (tehnologii utilizate)
 •	Testare și Depanare: Fiecare funcționalitate a fost testată riguros pentru a identifica și corecta eventualele erori. Testarea a inclus verificarea interacțiunilor utilizatorului, a algoritmului AI și a logicii de joc, asigurând astfel că experiența utilizatorului este consistentă și lipsită de probleme.
 
 Concluzie:
+
 Proiectul "X & O Game(Tic-Tac-Toe)" oferă o experiență de joc captivantă și provocatoare pentru utilizatori, utilizând tehnologii web de bază pentru a crea o interfață atractivă și funcțională. Implementarea unui AI variabil în dificultate prin algoritmul Minimax adaugă un element suplimentar de provocare, asigurând astfel un joc echilibrat și interesant.
