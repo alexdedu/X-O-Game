@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(57, 185, 143);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Active player */
+.activePlayer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+/* Player 1 */
+#player1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+  width: 250px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 1px 1px 0px 1px;
+}
+
+/* Player 2 */
+#player2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+  width: 250px;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 1px 1px 0px 1px;
+}
+
+/* Text */
+#start_select {
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+/* Player selection */
+.player-selection {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.player-selection button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Table */
+.cellsForGame {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.tic-tac-toe {
+  border-collapse: collapse;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: 2px solid;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* Removes lines from table  */
+
+tr:first-child td {
+  border-top: none;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+td:first-child {
+  border-left: none;
+}
+
+td:last-child {
+  border-right: none;
+}
+
+/* Restart the game */
+#restartGame {
+  margin-top: 40px;
+  color: white;
+}
+
+#restartGame:hover {
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
+}
+
+/* Disabled cell */
+.cell.disabled {
+  cursor: not-allowed;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Dropdown button */
+.dropbtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}

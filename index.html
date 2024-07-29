@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X & O Game</title>
+    <!-- Favicon  -->
+    <link rel="icon" href="favicon/Tic-tac-toe.png" />
+    <!-- Style  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Active player -->
+    <section class="activePlayer current-player">
+      <div id="player1">X <span id="score--0">-</span></div>
+      <div id="player2">O <span id="score--1">-</span></div>
+    </section>
+
+    <!-- Text  -->
+    <p id="start_select">Select a player</p>
+
+    <!-- Player selection buttons -->
+    <div class="player-selection">
+      <button id="selectX">Play as X</button>
+      <button id="selectO">Play as O</button>
+    </div>
+
+    <!-- Difficulty selection dropdown -->
+    <div class="dropdown">
+      <button class="dropbtn">Select Difficulty</button>
+      <div class="dropdown-content">
+        <a href="#" id="difficultyNewbie">Newbie</a>
+        <a href="#" id="difficultyMedium">Medium</a>
+        <a href="#" id="difficultyExpert">Expert</a>
+      </div>
+    </div>
+
+    <!-- Table  -->
+    <section class="cellsForGame">
+      <table class="tic-tac-toe">
+        <tr>
+          <td class="cell"></td>
+          <td class="cell"></td>
+          <td class="cell"></td>
+        </tr>
+        <tr>
+          <td class="cell"></td>
+          <td class="cell"></td>
+          <td class="cell"></td>
+        </tr>
+        <tr>
+          <td class="cell"></td>
+          <td class="cell"></td>
+          <td class="cell"></td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Reset the game  -->
+    <p id="restartGame">Restart the game</p>
+
+    <!-- Script  -->
+    <script src="script.js"></script>
+  </body>
+</html>

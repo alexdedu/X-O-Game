@@ -1,0 +1,193 @@
+{
+  "textmarker.savedHighlights": [
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Selecting elements",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkmagenta"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Starting conditions",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkviolet"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Initialize the game function",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Reset the score and cells",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Remove red bottom border from active player",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "  // Reset the text",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Choose a player (X or O)",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Select difficulty from dropdown",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Click on cell",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Reset Board",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Check Winner Function",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Function to check win",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Check Draw Function",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Update Scores",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Player move function",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// AI move function using Minimax algorithm",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Random difficulty",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Minimax algorithm",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Introduce randomness difficulty",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// Make move function",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// New game(Restart)",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    }
+  ]
+}
